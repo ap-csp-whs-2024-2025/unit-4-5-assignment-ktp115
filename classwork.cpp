@@ -8,8 +8,17 @@ void displayList(std::vector<T> const &v);
 int main()
 {
     // You can follow along with any code in class here
+    int x = 6;
+    double y = 6.5;
+    std::string name = "vroom";
+
+    // list of ints named jennys w 7 elements
+    std::vector<int> jennys = {8,6,7,5,3,0,9};
+    std::vector<double> vro = {3.2,5.5};
+    std::vector<std::string> bar = {"hello","darkness","my","old","friend"};
 
     
+
     return 0;
 }
 
