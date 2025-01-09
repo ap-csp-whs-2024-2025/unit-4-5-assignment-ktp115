@@ -15,8 +15,11 @@ int main()
     // list of ints named jennys w 7 elements
     std::vector<int> jennys = {8,6,7,5,3,0,9};
     std::vector<double> vro = {3.2,5.5};
-    std::vector<std::string> bar = {"hello","darkness","my","old","friend"};
-
+    std::vector<std::string> words = {"hello","darkness","my","old","friend"};
+    // cannot std::cout << words
+    std::cout << "The list is ";
+    //procedure
+    displayList(words);
     
 
     return 0;

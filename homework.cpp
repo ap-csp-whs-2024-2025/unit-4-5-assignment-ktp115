@@ -7,9 +7,19 @@ void displayList(std::vector<T> const &v);
 
 int main()
 {
-    // You can follow along with any code in class here
+    std::vector<int> num = {4,5,6,7,8,9,10};
+    std::vector<double> doub = {10.14,8.23,3.14,6.4,11.15};
+    std::vector<std::string> str = {"bing","bang","boom","bam","bow"};
 
+    std::cout << num[0] << ", " << num[2] << ", " << num[4] << "\n";
     
+    displayList(str);
+    str.push_back("Katie");
+    displayList(str);
+
+    displayList(doub);
+    doub.pop_back();
+    displayList(doub);
     return 0;
 }
 
